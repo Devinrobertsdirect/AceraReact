@@ -1,0 +1,78 @@
+/* app.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.app {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #1a73e8; /* Blue sidebar background */
+    padding: 20px;
+}
+
+    .sidebar img.logo {
+        width: 80px; /* Adjust size as needed */
+        margin-bottom: 20px;
+    }
+
+    .sidebar button {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #0d47a1; /* Darker blue button color */
+        color: #ffffff; /* White text */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .sidebar button:hover {
+            background-color: #1e88e5; /* Lighter blue on hover */
+        }
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.webcam-container {
+    width: 100%;
+    height: 400px;
+    background-color: #1565c0; /* Blue webcam container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.activate-button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1a73e8; /* Blue button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .activate-button:hover {
+        background-color: #0d47a1; /* Darker blue on hover */
+    }
+
+.button-icon {
+    width: 20px; /* Adjust size as needed */
+    margin-right: 10px;
+}
+
+/* Add more styling for webcam integration and other components as needed */
